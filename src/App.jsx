@@ -120,10 +120,6 @@ class ProductList extends React.Component {
     }
 
     async createProduct(newProduct) {
-        const newProducts = this.state.products.slice();
-        newProduct.id = this.state.products.length + 1;
-        newProducts.push(newProduct);
-        this.setState({ products: newProducts });
         const query = `mutation {
             productAdd(product:{
               Name: "${newProduct.Name}",

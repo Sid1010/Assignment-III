@@ -13,7 +13,7 @@
   "dependencies": {
     "@babel/runtime": "^7.8.4",
     "apollo-server-express": "^2.10.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^0.13.2",
     "nodemon": "^1.19.4"
   },
